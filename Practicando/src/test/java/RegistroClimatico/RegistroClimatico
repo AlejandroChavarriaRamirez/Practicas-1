@@ -1,0 +1,13 @@
+public class RegistroClimatico {
+    private double temperatura; // Atributo privado
+
+    // Método getter para acceder a la temperatura
+    public double getTemperatura() {
+        return temperatura;
+    }
+
+    // Método setter para modificar la temperatura
+    public void setTemperatura(double temperatura) {
+        this.temperatura = temperatura;
+    }
+}
